@@ -7,13 +7,13 @@ An App that is designed to provide proof of concept that a ships motion can capt
 
 App is to be installed on a device with Android OS and a minSdkVersion 23. 
 
-APK is available here -> 
+APK is available here -> [CargoStabilityApp.apk](https://github.com/CompEng0001/ShipMotionApp/raw/master/App/CargoStabilityApp.apk)
 
 ## Visual Guide 
 
  **Splash Screen**
 
-<img align="center" width="300" heigh="600" src="https://github.com/CompEng0001/ShipMotionApp/blob/master/App_Screen_shots/Cargo_Stability_Warning_System_Splash_Screen.jpg">   
+<img align="center" width="300" heigh="600" src="https://github.com/CompEng0001/ShipMotionApp/blob/master/App Screen Shots/Cargo Stability Warning System Splash Screen.jpg">   
 
  **Data Acquisition**
 
@@ -22,5 +22,5 @@ APK is available here ->
 
  > That the sample time is limited to the fastest as 0 seconds, however, the hardware logs events between 0 and 200000 microseconds (us)
 
-<img align="center"  width="300" heigh="600" src="https://github.com/CompEng0001/ShipMotionApp/blob/master/App_Screen_shots/Cargo_Stability_Warning_System_Default_sampletime.jpg">  
+<img align="center"  width="300" heigh="600" src="https://github.com/CompEng0001/ShipMotionApp/blob/master/App Screen Shots/Cargo Stability Warning System Defualt sampletime.jpg">  
 
