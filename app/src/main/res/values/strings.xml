@@ -1,0 +1,16 @@
+<resources>
+    <string name="Azimuth">Azimuth</string>
+    <string name="CDAccelerometerimage">Accelerometerimage</string>
+    <string name="CFile">Current File:</string>
+    <string name="Degree">Degree: Computer Engineering MEng</string>
+    <string name="Name">Created and Developed by: Seb Blair</string>
+    <string name="NewSampleTimeBtn">∆ Sample Time</string>
+    <string name="Pitch">Pitch</string>
+    <string name="PitchSigma">Pitch σ</string>
+    <string name="Roll">Roll</string>
+    <string name="RollSigma">Roll σ</string>
+    <string name="SID">Student ID: 000947441</string>
+    <string name="SampleTime">Current Sample Time (ms)</string>
+    <string name="TitleSplashScreen">Cargo Stability Warning System</string>
+    <string name="pause">Paused</string>
+</resources>

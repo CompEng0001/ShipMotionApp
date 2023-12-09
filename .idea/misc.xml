@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/AndroidStudioProjects/CargoShipApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/CargoShipApp/app/src/main/res/layout/activity_splash.xml" value="0.2653985507246377" />
+        <entry key="..\:/Users/rb7326l/AndroidStudioProjects/CargoShipApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/rb7326l/AndroidStudioProjects/CargoShipApp/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
