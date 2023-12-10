@@ -152,18 +152,18 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
         long elapsedRealtime = SystemClock.elapsedRealtime();
         switch (sensorEvent.sensor.getType()) {
             case 1:
-                this.mAccelerometerData = (float[]) sensorEvent.values.clone();
-                if (this.plotData) {
-                    this.plotData = false;
-                }
-                this.recordData = true;
-                break;
+            this.mAccelerometerData = (float[]) sensorEvent.values.clone();
+            if (this.plotData) {
+                this.plotData = false;
+            }
+            this.recordData = true;
+            break;
             case 2:
-                this.mMagnetometerData = (float[]) sensorEvent.values.clone();
-                this.recordData = false;
-                break;
+            this.mMagnetometerData = (float[]) sensorEvent.values.clone();
+            this.recordData = false;
+            break;
             default:
-                return;
+            return;
         }
         if (this.recordData) {
             float[] fArr = new float[9];
@@ -193,18 +193,18 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
 
     public void logData(String str) {
         File externalStorageDirectory = Environment.getExternalStorageDirectory();
-    File file = new File(externalStorageDirectory.getAbsolutePath() + "/Sensor_Data");
+        File file = new File(externalStorageDirectory.getAbsolutePath() + "/Sensor_Data");
         if (!file.exists()) {
-        file.mkdir();
-    }
+            file.mkdir();
+        }
         try {
-        FileOutputStream fileOutputStream = new FileOutputStream(new File(file, "Test_" + String.valueOf(this.counter) + ".csv"), true);
-        fileOutputStream.write(str.getBytes());
-        fileOutputStream.close();
-    } catch (IOException e) {
-        //Toast.makeText(this, " " + String.valueOf(e), 0).show();
+            FileOutputStream fileOutputStream = new FileOutputStream(new File(file, "Test_" + String.valueOf(this.counter) + ".csv"), true);
+            fileOutputStream.write(str.getBytes());
+            fileOutputStream.close();
+        } catch (IOException e) {
+            //Toast.makeText(this, " " + String.valueOf(e), 0).show();
+        }
     }
-}
 
     private void addEntry(float f) {
         LineData lineData = (LineData) this.mChart.getData();

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cargoshipapp"
-    compileSdk = 33
+    namespace = "com.example.cargoshipappkotlin"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.cargoshipapp"
+        applicationId = "com.example.cargoshipappkotlin"
         minSdk = 32
         targetSdk = 33
         versionCode = 1
@@ -21,8 +21,8 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
             )
         }
     }
@@ -37,6 +37,7 @@ android {
 
 dependencies {
 
+    implementation("com.jjoe64:graphview:4.2.2")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")

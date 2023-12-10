@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Cargo Ship App</string>
     <string name="Azimuth">Azimuth</string>
     <string name="CDAccelerometerimage">Accelerometerimage</string>
     <string name="CFile">Current File:</string>
